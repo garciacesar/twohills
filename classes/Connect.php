@@ -1,17 +1,12 @@
 <?php
 require_once "Config.php";
 
-define("HOST", "mysql427.umbler.com");
-define("NAME", "twohills");
-define("USER", "twohills");
-define("PASS", "initnos3");
 
-/*
 define("HOST", "localhost");
 define("NAME", "twohills");
 define("USER", "root");
 define("PASS", "root");
-*/
+
 class DB{
 
 	private static $instance;
